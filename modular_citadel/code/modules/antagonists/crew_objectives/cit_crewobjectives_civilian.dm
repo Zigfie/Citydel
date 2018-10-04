@@ -190,7 +190,7 @@
 /datum/objective/crew/pwrgame //ported from Goon with adjustments
 	var/obj/item/clothing/targettidegarb
 	explanation_text = "Get your grubby hands on a (Dear god something broke. Report this to Citadel's development dicussion channel)."
-	jobs = "assistant"
+	jobs = "Citizen"
 
 /datum/objective/crew/pwrgame/New()
 	. = ..()
@@ -236,14 +236,14 @@
 	return FALSE
 
 /datum/objective/crew/promotion //ported from Goon
-	explanation_text = "Have a non-assistant ID registered to you at the end of the shift."
-	jobs = "assistant"
+	explanation_text = "Have a non-Citizen ID registered to you at the end of the shift."
+	jobs = "Citizen"
 
 /datum/objective/crew/promotion/check_completion()
 	if(owner && owner.current)
 		var/mob/living/carbon/human/H = owner.current
 		var/obj/item/card/id/theID = H.get_idcard()
 		if(istype(theID))
-			if(!(H.get_assignment() == "Assistant") && !(H.get_assignment() == "No id") && !(H.get_assignment() == "No job"))
+			if(!(H.get_assignment() == "Citizen") && !(H.get_assignment() == "No id") && !(H.get_assignment() == "No job"))
 				return TRUE
 	return FALSE

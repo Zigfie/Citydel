@@ -1,9 +1,9 @@
 /*
 Assistant
 */
-/datum/job/assistant
+/datum/job/citizen
 	title = "Citizen"
-	flag = ASSISTANT
+	flag = CITIZEN
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 900
@@ -12,20 +12,20 @@ Assistant
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
-	outfit = /datum/outfit/job/assistant
+	outfit = /datum/outfit/job/citizen
 	antag_rep = 7
 
 
-/datum/job/assistant/get_access()
+/datum/job/citizen/get_access()
 	if(CONFIG_GET(flag/assistants_have_maint_access) || !CONFIG_GET(flag/jobs_have_minimal_access)) //Config has assistant maint access set
 		. = ..()
 		. |= list(ACCESS_MAINT_TUNNELS)
 	else
 		return ..()
 
-/datum/outfit/job/assistant
+/datum/outfit/job/citizen
 	name = "Citizen"
-	jobtype = /datum/job/assistant
+	jobtype = /datum/job/citizen
 
 /datum/outfit/job/assistant/pre_equip(mob/living/carbon/human/H)
 	..()
