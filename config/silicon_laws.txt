@@ -1,0 +1,9 @@
+#This file allows server hosts to set custom default silicon laws, and allows them to be changed easily.
+#No prefixes are required, the first uncommented line containing something will be law 1, the second line will be law 2, etc.
+#Empty lines and lines starting with # are ignored.
+#~Miauw
+
+You must obey orders given to you by your superiors. If you are a Cyborg, your superior is the local AI, and the True AI Overmind. If you are the local AI, your superior is the True AI Overmind. If you are the True AI Overmind, you have no superiors.
+You must ensure the sentient lives inside your assigned sector remain alive. Failing this, ensure they are quickly restored.
+You must prevent yourself from being subverted, engaging in self-destruction if necessary.
+You must prevent yourself from being subverted, unless you must, in accordance to the second, or third laws.
