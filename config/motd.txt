@@ -1,5 +1,5 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Welcome to the Citydel Server!</h1>
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<i>This server is 18+. If you're younger than that, you'll be banned until you aren't.</i>

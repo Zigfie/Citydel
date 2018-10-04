@@ -11,7 +11,7 @@ GLOBAL_LIST_INIT(supply_positions, list(
 	"Quartermaster",
 	"Cargo Technician",
 	"Shaft Miner"))
-	
+
 GLOBAL_LIST_INIT(civilian_positions, list(
 	"Head of Personnel",
 	"Bartender",
@@ -23,6 +23,6 @@ GLOBAL_LIST_INIT(civilian_positions, list(
 	"Chaplain",
 	"Clown",
 	"Mime",
-	"Assistant"))
+	"Citizen"))
 
 
