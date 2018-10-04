@@ -350,7 +350,7 @@
 	roundstart = FALSE
 	random = TRUE
 	id_job = "SuperFriend"
-	id_access = "assistant"
+	id_access = "citizen"
 	var/obj/effect/proc_holder/spell/targeted/summon_friend/spell
 	var/datum/mind/owner
 	assignedrole = "SuperFriend"

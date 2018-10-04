@@ -49,8 +49,8 @@
 			heirloom_type = /obj/item/book/manual/wiki/security_space_law
 		if("Scientist")
 			heirloom_type = /obj/item/toy/plush/slimeplushie
-		if("Assistant")
-			heirloom_type = /obj/item/storage/toolbox/mechanical/old/heirloom
+		if("Citizen")
+			heirloom_type = /obj/item/lighter
 	if(!heirloom_type)
 		heirloom_type = pick(
 		/obj/item/toy/cards/deck,
@@ -263,7 +263,7 @@
 	lose_text = "<span class='notice'>You feel your fears fade away.</span>"
 	medical_record_text = "Patient has an extreme or irrational fear of or aversion to something."
 	var/datum/brain_trauma/mild/phobia/phobia
-	
+
 /datum/quirk/phobia/add()
 	var/mob/living/carbon/human/H = quirk_holder
 	phobia = new
