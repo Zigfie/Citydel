@@ -140,7 +140,7 @@
 	category = SLOT_W_UNIFORM
 	path = /obj/item/clothing/under/polychromic/shortpants
 	cost = 2
-
+/*
 // Trekie things
 //TOS
 /datum/gear/trekcmdtos
@@ -236,3 +236,294 @@
 	category = SLOT_W_UNIFORM
 	path = /obj/item/clothing/under/rank/trek/engsec/ent
 	restricted_roles = list("Chief Engineer","Atmospheric Technician","Station Engineer","Warden","Detective","Security Officer","Head of Security","Cargo Technician", "Shaft Miner", "Quartermaster")
+*/
+/datum/gear/bartender
+	name = "Bartender's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/bartender
+
+/datum/gear/bartenderpurp
+	name = "Purple Bartender's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/bartender/purple
+
+/datum/gear/captain
+	name = "Captain's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/captain
+
+/datum/gear/cargo
+	name = "Quartermaster's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/cargo
+
+/datum/gear/cargotech
+	name = "Cargo Tech's Shorts"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/cargotech
+
+/datum/gear/chaplain
+	name = "Chaplain's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/chaplain
+
+/datum/gear/chef
+	name = "Cook's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/chef
+
+/datum/gear/clown
+	name = "Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/clown
+
+/datum/gear/blueclown
+	name = "Blue Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/blueclown
+
+/datum/gear/greenclown
+	name = "Green Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/greenclown
+
+/datum/gear/yellowclown
+	name = "Yellow Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/yellowclown
+
+/datum/gear/purpleclown
+	name = "Purple Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/purpleclown
+
+/datum/gear/orangeclown
+	name = "Orange Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/orangeclown
+
+/datum/gear/rainbowclown
+	name = "Rainbow Clown Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/rainbowclown
+
+/datum/gear/head_of_personnel
+	name = "Head of Personnel's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/head_of_personnel
+
+/datum/gear/hydroponics
+	name = "Botanist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/hydroponics
+
+/datum/gear/janitor
+	name = "Janitor's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/janitor
+
+/datum/gear/lawyer
+	name = "Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer
+
+/datum/gear/lawyerblack
+	name = "Black Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/black
+
+/datum/gear/lawyerfemale
+	name = "Female Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/female
+
+/datum/gear/lawyerred
+	name = "Red Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/red
+
+/datum/gear/lawyerblue
+	name = "Blue Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/blue
+
+/datum/gear/lawyerbluesuit
+	name = "Jacketed Blue Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/bluesuit
+
+/datum/gear/lawyerpurpsuit
+	name = "Jacketed Purple Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/purpsuit
+
+/datum/gear/lawyerblacksuit
+	name = "Jacketed Black Lawyer Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/lawyer/blacksuit
+
+/datum/gear/curator
+	name = "Curator Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/curator
+
+/datum/gear/curatortreasurehunter
+	name = "Treasure Hunter's Outfit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/curator/treasure_hunter
+
+/datum/gear/mime
+	name = "Mime Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/mime
+
+/datum/gear/miner
+	name = "Miner's Overalls"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/miner
+
+/datum/gear/miner/lavaland
+	name = "Shaft Miner's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/miner/lavaland
+
+/datum/gear/chief_engineer
+	name = "Chief Engineer's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/chief_engineer
+
+/datum/gear/atmospheric_technician
+	name = "Atmos Tech Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/atmospheric_technician
+
+/datum/gear/engineer
+	name = "Engineer's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/engineer
+
+/datum/gear/roboticist
+	name = "Roboticist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/roboticist
+
+/datum/gear/research_director
+	name = "Research Director's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/research_director
+
+/datum/gear/research_director_alt
+	name = "Alternate Research Director's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/research_director/alt
+
+/datum/gear/research_director_turtleneck
+	name = "Research Director's Turtleneck"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/research_director/turtleneck
+
+	/datum/gear/scientist
+	name = "Scientist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/scientist
+
+/datum/gear/chemist
+	name = "Chemist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/chemist
+
+/datum/gear/chief_medical_officer
+	name = "Chief Medical Officer's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/chief_medical_officer
+
+/datum/gear/geneticist
+	name = "Geneticist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/geneticist
+
+/datum/gear/virologist
+	name = "Virologist's Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/virologist
+
+/datum/gear/nursesuit
+	name = "Nurse's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/nursesuit
+
+/datum/gear/medical
+	name = "Medical Doctor's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/medical
+
+/datum/gear/medicalblue
+	name = "Blue Scrubs"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/medical/blue
+
+/datum/gear/medicalgreen
+	name = "Green Scrubs"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/medical/green
+
+/datum/gear/medicalpurple
+	name = "Purple Scrubs"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/medical/purple
+/datum/gear/security
+	name = "Security Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/security
+/datum/gear/securitygrey
+	name = "Grey Security Jumpsuit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/security/grey
+/datum/gear/securityskirt
+	name = "Security Skirt"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/security/skirt
+/datum/gear/warden
+	name ="Warden's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/warden
+/datum/gear/wardengrey
+	name = "Grey Warden's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/warden/grey
+/datum/gear/det
+	name = "Detective's Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/det
+/datum/gear/detgrey
+	name = "Noir Suit"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/det/grey
+/datum/gear/head_of_security
+	name = "Head of Security's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/head_of_security
+/datum/gear/head_of_security_grey
+	name = "Gry Head of Security's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/head_of_security/grey
+/datum/gear/head_of_security_alt
+	name = "Alternate Head of Security's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/head_of_security/alt
+/datum/gear/securitynavyblue
+	name = "Formal Security Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/security/navyblue
+/datum/gear/head_of_security_navyblue
+	name = "Formal Head of Security Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/head_of_security/navyblue
+/datum/gear/warden_navyblue
+	name = "Formal Warden's Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/warden/navyblue
+/datum/gear/security_blueshirt
+	name = "Blue Shirt Security Uniform"
+	category = SLOT_W_UNIFORM
+	path = /obj/item/clothing/under/rank/security/blueshirt
