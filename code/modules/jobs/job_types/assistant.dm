@@ -8,7 +8,7 @@ Assistant
 	faction = "Station"
 	total_positions = 900
 	spawn_positions = 900
-	supervisors = "absolutely everyone"
+	supervisors = "no fucking body"
 	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
@@ -21,7 +21,7 @@ Assistant
 		. = ..()
 		. |= list(ACCESS_MAINT_TUNNELS)
 	else
-		return ..()
+		return get_all_accesses()
 
 /datum/outfit/job/citizen
 	name = "Citizen"
