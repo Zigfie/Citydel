@@ -17,11 +17,7 @@ Assistant
 
 
 /datum/job/citizen/get_access()
-	if(CONFIG_GET(flag/assistants_have_maint_access) || !CONFIG_GET(flag/jobs_have_minimal_access)) //Config has assistant maint access set
-		. = ..()
-		. |= list(ACCESS_MAINT_TUNNELS)
-	else
-		return get_all_accesses()
+	return get_all_accesses()
 
 /datum/outfit/job/citizen
 	name = "Citizen"
